@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+    <title>Escolhas</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id= "passo-0">
+            <img src="cenario-sala-vazia.jpeg" alt="">
+            <p> Você se encontra em uma sala branca e vazia, só tem uma mesa branca no meio, com 2 itens.</p>
+            <button class="btn-proximo" data-proximo="1">Pegar garrafa.</button>
+            <button class="btn-proximo" data-proximo="2">Pegar chocolate.</button>
+        </div>
+        <div class="passo" id= "passo-1">
+            <img src="cenario-botao.jpeg" alt="">
+            <p> Quando você pega a garrafa você se depara com um botão.</p>
+            <button class="btn-proximo" data-proximo="3">Ignorar.</button>
+            <button class="btn-proximo" data-proximo="4">Apertar.</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="cenario-botao.jpeg" alt="">
+            <p> Quando você pega o chocolate você se depara com um botão. </p>
+            <button class="btn-proximo" data-proximo="4">Apertar.</button>
+            <button class="btn-proximo" data-proximo="5">Ignorar.</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <img src="cenario-porta.jpeg" alt="">
+            <p> Você abre a garrafa e vê que não tem nada dentro, o arrependimento bate, pelo menos você teria comido um chocolate antes da solidão que te espera. Semanas passam e uma porta se abre a sua direita, ao entrar... </p>
+            <button class="btn-proximo" data-proximo="6">...</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <img src="cenario-luz do sol.jpeg" alt="">
+            <p> Você vê a luz do Sol, parabéns! Você não morrerá tão cedo. </p>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="cenario-sala-pessoa.jpeg" alt="">
+            <p> Uma porta se abre na sua esquerda, após entrar nela você vê uma fonte de água filtrada e uma pessoa parada. </p>
+            <button class="btn-proximo" data-proximo="7">Encher a garrafa.</button>
+            <button class="btn-proximo" data-proximo="8">Falar com a pessoa.(se pegou o chocolate essa é a 
+                única opção).</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <img src="cenario-sala-triste.jpeg" alt="">
+            <p> Você come o chocolate lentamente até ele acabar, o prazer instantâneo do açúcar te alivia... até se passarem dias, semanas, meses, e nos últimos momentos de vida você se pergunta o que aconteceria se você apertasse o botão. </p>
+        </div>
+        <div class="passo" id="passo-7">
+            <img src="cenario-sala-pessoa.jpeg" alt="">
+            <p> Ao encher a garrafa com água e tomar você percebe que estava com muita sede, provavelmente você está aí a muito tempo...</p>
+            <button class="btn-proximo" data-proximo="9">...</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <img src="cenario-morte.jpeg" alt="">
+            <p> Antes que você perceba você está no chão. Você morreu.</p>
+        </div>
+        <div class="passo" id="passo-9">
+            <img src="cenario-fim.jpeg" alt="">
+            <p> Em alguns instantes a pessoa abre a porta, você está livre! Manter hábitos saúdaveis dessa vez literalmente salvou a sua vida.</p>
+        </div>      
+    </main>
+    <script src='script.js'></script>
+</body>
+</html>
